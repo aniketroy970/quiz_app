@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
+h1{
+    text-align: left;
+    font-size: 2rem;
+    background-image: linear-gradient(to top,red,yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    margin-left: 2rem;
+}
+.form{
+    margin-left:1rem;
+    text-align:left;
+}
+input[type='radio']{
+    width: 20px;
+    height: 20px;
+}
+span{
+    font-size: 1.3rem;
+}
+p{
+    font-size: 1.3rem;
+    margin-top: 2rem;
+}
+button{
+    height: 2.5rem;
+    width: 30%;
+    font-weight: 800;
+    border: 3px solid none;
+    background-image: linear-gradient(to left, yellow, red);
+    margin-bottom: 4rem;
+    border-radius: 20px;
+}
+button:hover{
+    cursor: pointer;
+    background-image: linear-gradient(to left, red, yellow);
+}
+#score{
+    position: fixed;
+    float: right;
+    font-size: 1.2rem;
+    top: 0;
+    right: 10rem;
+}
+#correctanswer{
+    position: fixed;
+    float: right;
+    font-size: 1.2rem;
+    top: 2rem;
+    right: 10rem;
+}
+#wronganswer{
+    position: fixed;
+    float: right;
+    font-size: 1.2rem;
+    top: 4rem;
+    right: 10rem;
+}
+#notselected{
+    position: fixed;
+    float: right;
+    font-size: 1.2rem;
+    top: 6rem;
+    right: 10rem;
+}

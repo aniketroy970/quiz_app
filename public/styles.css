@@ -1,0 +1,46 @@
+body{
+    background-color: black;
+}
+.box{
+    height: auto;
+    max-width: 20rem;
+    border: 2px solid rebeccapurple;
+    margin: auto;
+    text-align: center;
+}
+#form input{
+    height: 1.5rem;
+    width: 80%;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+h1{
+    color: white;
+}
+#text{
+    color: black;
+    font-size: 1rem;
+    text-align: center;
+    height: 3.5rem;
+    width: 80%;
+    margin-bottom: 1rem;
+    font-weight:800;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+#button{
+    text-align: center;
+    height: 2rem;
+    width: 10rem;
+    border: 3px solid black;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    background-color: aqua;
+    font-weight: 700;
+    box-shadow: 0 0 1rem aqua;
+    transition: 0.7 ease;
+    cursor: pointer;
+}
+#button:hover{
+    box-shadow: none;
+}
