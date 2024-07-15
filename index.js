@@ -14,7 +14,7 @@ app.listen(port,()=>{
     console.log(`Server run at port number ${port}`)
 })
 
-mongoose.connect('mongodb+srv://aniketroy:quizapp@cluster0.qovzcs3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0',{
+mongoose.connect('mongodb+srv://aniketroy:quizapp@cluster0.qovzcs3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0/names',{
     useNewUrlParser:true,
     useUnifiedTopology:true,
 }).then(()=>{
