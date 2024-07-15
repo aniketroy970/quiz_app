@@ -16,7 +16,9 @@ app.listen(port,()=>{
 
 mongoose.connect('mongodb+srv://aniketroy:quizapp@cluster0.qovzcs3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0/Names',{
     useNewUrlParser:true,
-    useUnifiedTopology:true
+    useUnifiedTopology:true,
+    serverSelectionTimeoutMS: 30000, 
+  socketTimeoutMS: 45000, 
 }).then(()=>{
     console.log("MongoDB Connected.");
 })
